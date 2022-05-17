@@ -63,8 +63,8 @@ public class RootFlowPane extends FlowPane {
 		sb.append("Auswertung zu den Buttons:\n");
 		sb.append("Checkbox ist ");
 		if (!cb.isSelected())
-			sb.append(" nicht ");
-		sb.append(" selected;\n");
+			sb.append("nicht ");
+		sb.append("selected;\n");
 
 		sb.append("Ausgewaehlter RadioButton: ");
 		RadioButton rbSelected = (RadioButton) tgRadios.getSelectedToggle();
